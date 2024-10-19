@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow : #dcfa37;
+    --black : #000000;
+    --white : #ffffff;
+}
+
+body {
+    width: 100%;
+    /* background-color: rgb(246, 249, 209); */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topBox {
+    /* margin: 0 auto; */
+    margin-top: 10px;
+    width: 100vw;
+    height: 10px;
+    background-color: var(--yellow);
+}
+
+nav {
+    /* background-color: aquamarine; */
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 80px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    box-shadow: 0px 1px 2px #f5f4f4;
+}
+
+nav .logo {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav .logo img {
+    height: 48px;
+}
+
+nav .menu {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    font-weight: 600;
+}
+
+nav .menu a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+nav .buttons {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .buttons .nav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px 15px;
+    font-weight: 600;
+}
+
+nav .buttons .nav-btn img {
+    width: 22px;
+    height: 22px;
+    transform: rotate(270deg);
+}
+
+#login {
+    height: 45px;
+    border: 2px solid black;
+}
+
+#signup {
+    height: 45px;
+    border: none;
+    background-color: var(--yellow);
+}
+
+#hero {
+    /* height: calc(100vh - 100px); */
+    height: auto;
+    min-height: calc(100vh - 100px);
+    width: 100%;
+    background-color: var(--white);
+    padding: 6vh 10vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 12vh;
+}
+
+#hero #hero-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px 15px;
+    font-weight: 600;
+
+    height: 45px;
+    border: none;
+    background-color: var(--yellow);
+}
+
+#hero #hero-btn img {
+    width: 22px;
+    height: 22px;
+    transform: rotate(270deg);
+}
+
+#hero .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    font-size: 5.5rem;  
+    font-family: 'Bricolage Grotesque 14pt', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    font-weight: 600;
+}
+
+#explore {
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--white);
+    padding: 6vh 10vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 8vh;
+
+    background-color: rgb(226, 241, 236);
+}
+
+#explore .explore-menu {
+    height: 50px;
+    width: 650px;
+    background-color: #ffefef;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10px;
+    font-weight: 400;
+    color: #a0a0a0;
+}
+
+#explore .explore-menu a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+#explore .image {
+    width: 100%;
+    height: auto;
+}
+
+#explore .image video {
+    width: 100%;
+    height: auto;
+}
